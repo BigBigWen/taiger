@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="static/css/about.css">
+	<link rel="stylesheet" type="text/css" href="static/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="static/css/headerFooter.css">
+	
+</head>
+<body>
+<!-- 头部 -->
+	<header class="header">
+	</header>
+	<div class="about container">
+		<div class="about-nav">
+			<ul class="clear">
+				<li style="background-color:#FFE100">企业概况</li>
+				<li class="li-two">企业荣誉</li>
+				<li>安全保障</li>
+			</ul>
+		</div>
+		<div class="banner">
+			<h2>业务定位</h2>
+			<div class="imgbox">
+				<b id="aboutTop">
+					<span>华人地区知名美股网络券商</span><br>
+					<span>致力于为用户提供一流的全球投资体验</span>
+				</b>
+				<p id="aboutBottom"> 
+					<span>业务覆盖港股、美股、A股等主流证券市场</span><br>
+					<span>美股、港股市场上的期权、股票、Etfs。外汇、债券等丰富交易品种自由选</span><br>
+					<span>择,灵活投资,实现收益的最大化</span>
+				</p>
+			</div>
+		</div>
+		<div class="goodness">
+			<h2>业务优势</h2>
+			<ul >
+				<li>
+					<h2>中文客服</h2>
+					<p>全天20小时贴心守候</p>
+				</li>
+				<li>
+					<h2>轻松开户</h2>
+					<p>一张身份证，3分钟足不出户，轻松开启全球证券投资</p>
+				</li>
+				<li>
+					<h2>中文客服</h2>
+					<p>全天20小时贴心守候</p>
+				</li>
+				<li>
+					<h2>融资融券</h2>
+					<p>美股港股均支持融资融券，融资年化利率最低至1.5%</p>
+				</li>
+				<li>
+					<h2>投资培训</h2>
+					<p>股票学院专业课程,高端分析师沙龙</p>
+				</li>
+				<li>
+					<h2>超低佣金</h2>
+					<p>美股佣金$0.01/股（USD），港股佣金0.08%（HKD）</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer class="footer">
+	</footer>
+	<script src="static/js/jquery.js"></script>
+	<script src="static/js/sea.js"></script>
+	<script src="static/bower_components/underscore/underscore.js"></script>
+	<script>
+		seajs.config({
+			base:'./'
+		});
+		seajs.use(['static/js/about.js'],function(a){
+			a.init();
+		});
+	</script>
+</body>
+</html>
+
