@@ -6,8 +6,8 @@ define( function(require,exports,module){
 
 		},
 		htmlFn:function(){
-			var header = require('static/view/header');
-			var footer = require('static/view/footer');
+			var header = require('view/header');
+			var footer = require('view/footer');
 
 			$('header').html( header );
 			$('footer').html( footer );

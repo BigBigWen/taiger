@@ -1,5 +1,5 @@
 define( function( require,exports,module){
-	var slideImg2 = require('static/js/slideImg.js');
+	var slideImg2 = require('./slideImg.js');
 	var indexJs = {
 		init:function(){
 			this.htmlFn();
@@ -11,10 +11,10 @@ define( function( require,exports,module){
 		    
 		},
 		htmlFn:function(){
-			var header = require('static/view/header');
-			var footer = require('static/view/footer');
-			$('.footer').html( footer);
-			$('.header').html( header );
+			var header = require('view/header');
+			var footer = require('view/footer');
+			$(".header").html( header );
+			$(".footer").html( footer );
 		},
 		nav:function(){
 			//nav 特效

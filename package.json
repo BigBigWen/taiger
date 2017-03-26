@@ -8,7 +8,10 @@
     "gulp-cmd-jst": "^0.1.6",
     "gulp-connect": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
