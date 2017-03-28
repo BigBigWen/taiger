@@ -15,7 +15,23 @@
 	<header class="header">
 	</header>
 	<div class="signup container">
-	    .box
+	   <div class="box">
+		   <h1>
+			   <img src="images\login\logo.black.2812764f.png" alt="">
+		   </h1>
+		   <div class="phone">
+			   <label for="" class="tel ks-clear">
+				   <select>
+					   <option value="">中国<b>+86</b></option>
+					   <option value="">新加坡<b>+11</b></option>
+				   </select>
+				   <input type="tel" name="" value="" placeholder="请输入手机号码">
+				</label>
+			   <label for="" class="password"><input type="password" name="" value="" placeholder="请输入密码"></label>
+		   </div>
+		   <p class="forget ks-clear"><a href="https://www.itiger.com/account/retrive?f=loginPage">忘记密码</a><span>使用邮箱登陆</span></p>
+		   <p class="loginbtn">登陆</p>
+	   </div>
 	</div>
 	<footer class="footer">
 	</footer>
@@ -23,7 +39,7 @@
 	<script src="js/sea.js"></script>
 	<script src="bower_components/underscore/underscore.js"></script>
 	<script>
-		seajs.config({
+		seajs.config({  
 			base:'./'
 		});
 		seajs.use(['js/signup.js'],function(a){
